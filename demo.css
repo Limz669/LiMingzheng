@@ -1,0 +1,55 @@
+/* css部分代码 */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* 导航栏部分 */
+#header{
+    background-color: #333333;;
+    height: 31px;
+}
+/* 导航栏的第一个子元素 */
+#header .wapper{
+    background:none; 
+    width: 970px;
+    margin: auto auto;
+    overflow: hidden;
+}
+/* 第一个子元素下的菜单元素 */
+#header ul li,.dropbtn{
+    float:left;
+    color: #ffffff;
+    display: block;
+    padding-top: 9px;
+    padding-bottom: 20px;
+    font-size: 9pt; 
+    font-family: 微软雅黑,Verdana,sans-serif,宋体;
+}
+a:link,a:visited/* link未访问链接*//* visited已访问链接 */
+{
+    text-decoration: none;
+    font-weight:bold;
+    color: #ffffff;
+    text-align:center;
+    padding:6px;
+}
+a:hover,a:active{/* hover鼠标移动到链接上 *//* active鼠标点击时 */
+    color:gray;
+}
+.dropdown{
+    display: inline;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;/* 字体颜色 */
+    font-size: 9pt; 
+    font-family: 微软雅黑,Verdana,sans-serif,宋体;
+    padding-bottom: 9px;
+    margin-top: 31px;
+    margin-left: 120px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
